@@ -1,5 +1,6 @@
 import './style.css'
+import sum from './sum'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
-app.innerHTML = '<h1>hello<h1/>'
+app.innerHTML = sum(1,2 ,3 ).toString();
